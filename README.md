@@ -35,8 +35,8 @@ Users should be able to:
 ![](/assets/images/screenshots/screenshot-5.png)
 
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL here](https://github.com/mishael-codes/newsletter-with-success-state-with-vite)
+- [Live site URL here](https://your-live-site-url.com)
 
 ## My process
 
