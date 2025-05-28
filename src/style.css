@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme{
+  --color-tomato: hsl(4, 100%, 67%);
+  --color-lightTomato: hsl(4, 100%, 67%, 0.3);
+  --color-darkSlateGrey: hsl(234, 29%, 20%);
+  --color-charcoalGrey: hsl(235, 18%, 26%);
+  --color-grey: hsl(231, 7%, 60%);
+  --color-white: hsl(0, 0%, 100%);
+}
