@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/newsletter-with-success-state-with-vite/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <script type="module" crossorigin src="/newsletter-with-success-state-with-vite/assets/index-D84S1fCX.js"></script>
+    <link rel="stylesheet" crossorigin href="/newsletter-with-success-state-with-vite/assets/index-DFcqObBk.css">
+  </head>
+  <body
+    class="md:bg-darkSlateGrey md:h-screen md:flex md:flex-col md:items-center md:justify-center"
+  >
+    <main
+      class="md:bg-darkSlateGrey md:h-screen md:flex md:flex-col md:items-center md:justify-center"
+    >
+      <!-- signup page -->
+      <div
+        class="container w-screen signupPage md:flex md:flex-row-reverse md:p-6 md:m-5 md:bg-white md:w-fit md:rounded-2xl lg:max-h-[600px] lg:max-w-[900px]"
+      >
+        <picture class="w-full h-full">
+          <source
+            media="(min-width: 768px)"
+            srcset="/newsletter-with-success-state-with-vite/assets/illustration-sign-up-desktop-DX21DkyK.svg"
+            alt="illustration-sign-up-desktop"
+          />
+          <img
+            class="w-full lg:h-[500px] lg:pl-16"
+            src="/newsletter-with-success-state-with-vite/assets/illustration-sign-up-mobile-DkrvVqU_.svg"
+            alt="illustration-sign-up-mobile"
+          />
+        </picture>
+        <section class="mt-10 w-full pl-5 pr-8 text-charcoalGrey">
+          <h1 class="text-4xl font-bold">Stay updated!</h1>
+          <p class="text-base my-5">
+            Join 60,000+ product managers receiving monthly updates on:
+          </p>
+          <ul class="benefits">
+            <li class="flex items-start"><img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='21'%20height='21'%20viewBox='0%200%2021%2021'%3e%3cg%20fill='none'%3e%3ccircle%20cx='10.5'%20cy='10.5'%20r='10.5'%20fill='%23FF6155'/%3e%3cpath%20stroke='%23FFF'%20stroke-width='2'%20d='M6%2011.381%208.735%2014%2015%208'/%3e%3c/g%3e%3c/svg%3e" alt="" class="mr-3">Product discovery and building what matters</li>
+            <li class="flex items-center my-3"><img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='21'%20height='21'%20viewBox='0%200%2021%2021'%3e%3cg%20fill='none'%3e%3ccircle%20cx='10.5'%20cy='10.5'%20r='10.5'%20fill='%23FF6155'/%3e%3cpath%20stroke='%23FFF'%20stroke-width='2'%20d='M6%2011.381%208.735%2014%2015%208'/%3e%3c/g%3e%3c/svg%3e" alt="" class="mr-3">Measuring to ensure updates are a success</li>
+            <li class="flex items-center"><img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='21'%20height='21'%20viewBox='0%200%2021%2021'%3e%3cg%20fill='none'%3e%3ccircle%20cx='10.5'%20cy='10.5'%20r='10.5'%20fill='%23FF6155'/%3e%3cpath%20stroke='%23FFF'%20stroke-width='2'%20d='M6%2011.381%208.735%2014%2015%208'/%3e%3c/g%3e%3c/svg%3e" alt="" class="mr-3">And much more!</li>
+          </ul>
+          <form class="form mt-7 w-full">
+            <div class="w-full flex items-center justify-between">
+              <label for="email">Email Address</label>
+              <p id="error" class="text-tomato"></p>
+            </div>
+            <input
+              type="email"
+              id="email"
+              placeholder="email@company.com"
+              class="w-full border-[0.5px] border-darkSlateGrey p-4 rounded-lg"
+              autofocus
+            />
+            <button
+              id="btn"
+              type="submit"
+              class="w-full mt-5 md:mt-2 mb-3 p-4 bg-darkSlateGrey text-white font-bold rounded-lg hover:bg-tomato active:bg-tomato transition-colors duration-500"
+            >
+              Subscribe to monthly newsletter
+            </button>
+          </form>
+        </section>
+      </div>
+
+      <!-- Success message -->
+      <div
+        class="hidden relative h-screen text-charcoalGrey flex-col items-start justify-center mx-5 successPage md:static md:w-[450px] md:h-[450px] md:bg-white md:rounded-2xl md:p-20 md:mx-0"
+      >
+        <img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='64'%20height='64'%20viewBox='0%200%2064%2064'%3e%3cdefs%3e%3clinearGradient%20id='a'%20x1='100%25'%20x2='0%25'%20y1='0%25'%20y2='100%25'%3e%3cstop%20offset='0%25'%20stop-color='%23FF6A3A'/%3e%3cstop%20offset='100%25'%20stop-color='%23FF527B'/%3e%3c/linearGradient%3e%3c/defs%3e%3cg%20fill='none'%3e%3ccircle%20cx='32'%20cy='32'%20r='32'%20fill='url(%23a)'/%3e%3cpath%20stroke='%23FFF'%20stroke-width='4'%20d='m18.286%2034.686%208.334%207.98%2019.094-18.285'/%3e%3c/g%3e%3c/svg%3e" alt="icon-success" />
+        <div>
+          <h1 class="text-4xl font-bold mt-8 mb-5">Thanks for subscribing!</h1>
+          <p>
+            A confirmation email has been sent to
+            <span id="userEmail" class="font-bold"></span>. Please open it and
+            click the button inside to confirm your subscription.
+          </p>
+        </div>
+        <button
+          class="absolute bottom-0 w-full mt-5 mb-3 p-4 bg-darkSlateGrey text-white font-bold rounded-lg md:static dismiss hover:bg-tomato active:bg-tomato transition-colors duration-500"
+        >
+          Dismiss Message
+        </button>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="attribution w-[80vw] m-auto">
+      <p class="md:text-white text-center">
+        Challenge by
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          class="md:text-tomato"
+          >Frontend Mentor</a
+        >. Coded by
+        <a
+          href="https://mishaelenyi.netlify.app"
+          target="_blank"
+          class="md:text-tomato"
+          >Mishael Enyi</a
+        >.
+      </p>
+    </footer>
+
+  </body>
+</html>
