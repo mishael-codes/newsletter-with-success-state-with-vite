@@ -1,9 +1,11 @@
+# .github/workflows/deploy.yml
+
 name: Deploy Vite site to GitHub Pages
 
 on:
   push:
     branches:
-      - main 
+      - main
 
 permissions:
   contents: read
@@ -26,7 +28,7 @@ jobs:
       - name: Setup PNPM
         uses: pnpm/action-setup@v2
         with:
-          version: 8  # or whatever version you're using
+          version: 8
 
       - name: Install dependencies
         run: pnpm install
